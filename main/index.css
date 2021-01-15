@@ -1,12 +1,40 @@
 /* indicator icon  make dotted */
 
 .custom {
-color: rgba(26, 197, 26, 0.623);
-}
-.heading{
-    color: rgb(7, 7, 71);
-}
-.background{
-    background-color: whitesmoke;
+  color: rgba(26, 197, 26, 0.623);
 }
 
+.heading {
+  color: rgb(7, 7, 71);
+}
+.background {
+  background: whitesmoke;
+}
+.diffcoller {
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    whitesmoke 0%,
+    whitesmoke 50%,
+    white 50%,
+    white 100%
+  );
+}
+
+.hover:hover {
+  content: "";
+  border: 1px solid rgba(26, 197, 26, 0.623);
+}
+.apple:hover > div > i {
+  color: rgba(197, 39, 39, 0.966);
+}
+.vegetable:hover > div > i {
+  color: rgba(26, 197, 26, 0.623);
+}
+.berries:hover > div > i {
+  color: rgb(63, 3, 3);
+}
+.fire:hover > div > i {
+  color: rgb(255, 153, 0);
+}
