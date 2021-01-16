@@ -38,3 +38,13 @@
 .fire:hover > div > i {
   color: rgb(255, 153, 0);
 }
+
+/* div height width declear */
+.div-height{
+  height: 270px;
+  width: 70%;
+  margin: auto;
+  align-content: center;
+  padding: 50px;
+  
+}
